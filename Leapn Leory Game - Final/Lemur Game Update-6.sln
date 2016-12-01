@@ -1,0 +1,35 @@
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2008
+
+Project("{7C36FF12-6B18-3696-89AB-7B1937657BE0}") = "Lemur Game Update-6", "Assembly-CSharp-firstpass.csproj", "{34571441-78AA-3887-D3FA-4AF6BD9A2E02}"
+EndProject
+Project("{7C36FF12-6B18-3696-89AB-7B1937657BE0}") = "Lemur Game Update-6", "Assembly-CSharp.csproj", "{E45774B3-9EED-149E-65EA-7FFF1BFA66BF}"
+EndProject
+Project("{7C36FF12-6B18-3696-89AB-7B1937657BE0}") = "Lemur Game Update-6", "Assembly-CSharp-Editor.csproj", "{69F9351B-0D12-AE6B-781A-99985126BC71}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{34571441-78AA-3887-D3FA-4AF6BD9A2E02}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{34571441-78AA-3887-D3FA-4AF6BD9A2E02}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{34571441-78AA-3887-D3FA-4AF6BD9A2E02}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{34571441-78AA-3887-D3FA-4AF6BD9A2E02}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E45774B3-9EED-149E-65EA-7FFF1BFA66BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E45774B3-9EED-149E-65EA-7FFF1BFA66BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E45774B3-9EED-149E-65EA-7FFF1BFA66BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E45774B3-9EED-149E-65EA-7FFF1BFA66BF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{69F9351B-0D12-AE6B-781A-99985126BC71}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{69F9351B-0D12-AE6B-781A-99985126BC71}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{69F9351B-0D12-AE6B-781A-99985126BC71}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{69F9351B-0D12-AE6B-781A-99985126BC71}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Assembly-CSharp.csproj
+	EndGlobalSection
+EndGlobal

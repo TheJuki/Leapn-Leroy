@@ -1,0 +1,430 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1000011011433898}
+  m_IsPrefabParent: 1
+--- !u!1 &1000011011433898
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 4000013844983150}
+  - 114: {fileID: 114000013529524356}
+  m_Layer: 0
+  m_Name: Input Manager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4000013844983150
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000011011433898}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!114 &114000013529524356
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000011011433898}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bb91bdba6520fd248bbc41b14d02e9a0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  inputConfigurations:
+  - name: KeyboardAndMouse
+    axes:
+    - name: Horizontal
+      description: 
+      positive: 275
+      negative: 276
+      altPositive: 0
+      altNegative: 0
+      deadZone: 0
+      gravity: 3
+      sensitivity: 3
+      snap: 1
+      invert: 0
+      type: 2
+      axis: 0
+      joystick: 0
+    - name: Vertical
+      description: 
+      positive: 273
+      negative: 274
+      altPositive: 0
+      altNegative: 0
+      deadZone: 0
+      gravity: 3
+      sensitivity: 3
+      snap: 1
+      invert: 0
+      type: 2
+      axis: 0
+      joystick: 0
+    - name: LookHorizontal
+      description: 
+      positive: 0
+      negative: 0
+      altPositive: 0
+      altNegative: 0
+      deadZone: 0
+      gravity: 1
+      sensitivity: 0.1
+      snap: 0
+      invert: 0
+      type: 1
+      axis: 0
+      joystick: 0
+    - name: LookVertical
+      description: 
+      positive: 0
+      negative: 0
+      altPositive: 0
+      altNegative: 0
+      deadZone: 0
+      gravity: 1
+      sensitivity: 0.1
+      snap: 0
+      invert: 0
+      type: 1
+      axis: 1
+      joystick: 0
+    - name: MenuHorizontal
+      description: 
+      positive: 100
+      negative: 97
+      altPositive: 275
+      altNegative: 276
+      deadZone: 0
+      gravity: 3
+      sensitivity: 3
+      snap: 1
+      invert: 0
+      type: 2
+      axis: 0
+      joystick: 0
+    - name: MenuVertical
+      description: 
+      positive: 119
+      negative: 115
+      altPositive: 273
+      altNegative: 274
+      deadZone: 0
+      gravity: 3
+      sensitivity: 3
+      snap: 1
+      invert: 0
+      type: 2
+      axis: 0
+      joystick: 0
+    - name: Jump
+      description: 
+      positive: 32
+      negative: 0
+      altPositive: 0
+      altNegative: 0
+      deadZone: 0
+      gravity: 0
+      sensitivity: 0
+      snap: 0
+      invert: 0
+      type: 0
+      axis: 0
+      joystick: 0
+    - name: Pause
+      description: 
+      positive: 19
+      negative: 0
+      altPositive: 0
+      altNegative: 0
+      deadZone: 0
+      gravity: 0
+      sensitivity: 0
+      snap: 0
+      invert: 0
+      type: 0
+      axis: 0
+      joystick: 0
+    - name: PauseMenu
+      description: 
+      positive: 27
+      negative: 0
+      altPositive: 0
+      altNegative: 0
+      deadZone: 0
+      gravity: 0
+      sensitivity: 0
+      snap: 0
+      invert: 0
+      type: 0
+      axis: 0
+      joystick: 0
+    - name: Submit
+      description: 
+      positive: 32
+      negative: 0
+      altPositive: 0
+      altNegative: 0
+      deadZone: 0
+      gravity: 0
+      sensitivity: 0
+      snap: 0
+      invert: 0
+      type: 0
+      axis: 0
+      joystick: 0
+    - name: Cancel
+      description: 
+      positive: 27
+      negative: 0
+      altPositive: 0
+      altNegative: 0
+      deadZone: 0
+      gravity: 0
+      sensitivity: 0
+      snap: 0
+      invert: 0
+      type: 0
+      axis: 0
+      joystick: 0
+    - name: Run
+      description: 
+      positive: 116
+      negative: 0
+      altPositive: 0
+      altNegative: 0
+      deadZone: 0
+      gravity: 3
+      sensitivity: 3
+      snap: 0
+      invert: 0
+      type: 2
+      axis: 0
+      joystick: 0
+    - name: Crouch
+      description: 
+      positive: 304
+      negative: 0
+      altPositive: 0
+      altNegative: 0
+      deadZone: 0
+      gravity: 1
+      sensitivity: 1
+      snap: 0
+      invert: 0
+      type: 0
+      axis: 0
+      joystick: 0
+    isExpanded: 0
+  - name: Gamepad
+    axes:
+    - name: Horizontal
+      description: 
+      positive: 0
+      negative: 0
+      altPositive: 0
+      altNegative: 0
+      deadZone: 0.2
+      gravity: 0
+      sensitivity: 1
+      snap: 0
+      invert: 0
+      type: 3
+      axis: 0
+      joystick: 0
+    - name: Vertical
+      description: 
+      positive: 0
+      negative: 0
+      altPositive: 0
+      altNegative: 0
+      deadZone: 0.2
+      gravity: 0
+      sensitivity: 1
+      snap: 0
+      invert: 1
+      type: 3
+      axis: 1
+      joystick: 0
+    - name: LookHorizontal
+      description: 
+      positive: 0
+      negative: 0
+      altPositive: 0
+      altNegative: 0
+      deadZone: 0.2
+      gravity: 0
+      sensitivity: 1
+      snap: 0
+      invert: 0
+      type: 3
+      axis: 3
+      joystick: 0
+    - name: LookVertical
+      description: 
+      positive: 0
+      negative: 0
+      altPositive: 0
+      altNegative: 0
+      deadZone: 0.2
+      gravity: 0
+      sensitivity: 1
+      snap: 0
+      invert: 1
+      type: 3
+      axis: 4
+      joystick: 0
+    - name: MenuHorizontal
+      description: 
+      positive: 0
+      negative: 0
+      altPositive: 0
+      altNegative: 0
+      deadZone: 0.2
+      gravity: 0
+      sensitivity: 1
+      snap: 0
+      invert: 0
+      type: 3
+      axis: 0
+      joystick: 0
+    - name: MenuVertical
+      description: 
+      positive: 0
+      negative: 0
+      altPositive: 0
+      altNegative: 0
+      deadZone: 0.2
+      gravity: 0
+      sensitivity: 1
+      snap: 0
+      invert: 1
+      type: 3
+      axis: 1
+      joystick: 0
+    - name: Jump
+      description: 
+      positive: 350
+      negative: 0
+      altPositive: 0
+      altNegative: 0
+      deadZone: 0
+      gravity: 0
+      sensitivity: 0
+      snap: 0
+      invert: 0
+      type: 0
+      axis: 0
+      joystick: 0
+    - name: Pause
+      description: 
+      positive: 0
+      negative: 0
+      altPositive: 0
+      altNegative: 0
+      deadZone: 0
+      gravity: 0
+      sensitivity: 0
+      snap: 0
+      invert: 0
+      type: 0
+      axis: 0
+      joystick: 0
+    - name: PauseMenu
+      description: 
+      positive: 357
+      negative: 0
+      altPositive: 27
+      altNegative: 0
+      deadZone: 0
+      gravity: 0
+      sensitivity: 0
+      snap: 0
+      invert: 0
+      type: 0
+      axis: 0
+      joystick: 0
+    - name: Submit
+      description: 
+      positive: 350
+      negative: 0
+      altPositive: 0
+      altNegative: 0
+      deadZone: 0
+      gravity: 0
+      sensitivity: 0
+      snap: 0
+      invert: 0
+      type: 0
+      axis: 0
+      joystick: 0
+    - name: Cancel
+      description: 
+      positive: 356
+      negative: 0
+      altPositive: 27
+      altNegative: 0
+      deadZone: 0
+      gravity: 0
+      sensitivity: 0
+      snap: 0
+      invert: 0
+      type: 0
+      axis: 0
+      joystick: 0
+    - name: Run
+      description: 
+      positive: 351
+      negative: 0
+      altPositive: 0
+      altNegative: 0
+      deadZone: 0
+      gravity: 0
+      sensitivity: 0
+      snap: 0
+      invert: 0
+      type: 0
+      axis: 5
+      joystick: 0
+    - name: Crouch
+      description: 
+      positive: 0
+      negative: 0
+      altPositive: 0
+      altNegative: 0
+      deadZone: 0.2
+      gravity: 0
+      sensitivity: 1
+      snap: 0
+      invert: 0
+      type: 3
+      axis: 5
+      joystick: 0
+    isExpanded: 0
+  playerOneDefault: Gamepad
+  playerTwoDefault: 
+  playerThreeDefault: 
+  playerFourDefault: 
+  dontDestroyOnLoad: 1
+  ignoreTimescale: 1
